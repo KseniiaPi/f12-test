@@ -6312,6 +6312,7 @@ input[type=submit].Banner-form-button {
       .DownloadsDonors-container .link {
         text-align: center; } }
 
+
 .ExtraLinks {
   display: -ms-flexbox;
   display: flex;
@@ -11680,5 +11681,45 @@ ul.Tags {
 .WfdButtons {
   margin-bottom: 4rem;
   text-align: center; }
+
+/*new styles */
+
+.red-border {
+    border: 6px solid #ed1c24;
+    padding: 1.6rem 1.9rem;
+    box-sizing: border-box;
+    display: block;
+}
+
+@media (max-width: 759px) {
+    .red-border {
+        display: none;
+    }
+}
+
+.red-border--mobile {
+    border: 6px solid #ed1c24;
+    padding: 1.6rem 1.9rem;
+    box-sizing: border-box;
+    display: none;
+    width: 165px;
+}
+
+.wrapper-for-red-border--mobile {
+    display: none;   
+}
+
+@media (max-width: 759px) {
+    .red-border--mobile {
+        display: block;
+        margin-bottom: 8px;
+    }
+    .wrapper-for-red-border--mobile {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 8px;
+    }
+}
+
 
 /*# sourceMappingURL=../maps/style.css.map */
